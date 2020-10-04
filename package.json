@@ -6,6 +6,11 @@
   "directories": {
     "lib": "lib"
   },
+  "engines": {
+    "node": "14.1.0",
+    "npm": "6.14.4",
+    "yarn": "1.22.5"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "yarn --cwd frontend install && yarn --cwd frontend build",
