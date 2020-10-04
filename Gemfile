@@ -13,6 +13,8 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.3'
 gem 'rubocop', '~> 0.92.0'
 
 group :development, :test do
+  gem 'webmock', '~> 3.9', '>= 3.9.1'
+  gem 'vcr', '~> 6.0'
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'rspec-rails', '~> 4.0', '>= 4.0.1'
 end
